@@ -1,0 +1,18 @@
+Los template strings (también conocidos como template literals) son una característica de JavaScript introducida en ECMAScript 6 (ES6). Utilizan las comillas invertidas ( ` ) en lugar de comillas simples o dobles para definir cadenas de texto. Algunas características clave de los template strings y sus diferencias con las comillas simples o dobles son:
+
+1. Interpolación de Variables:
+Una de las características más poderosas es la capacidad de insertar expresiones y variables directamente en la cadena, utilizando la sintaxis ${expresión}. Esto simplifica la construcción de cadenas dinámicas.
+
+
+2. Múltiples Líneas:
+Los template strings permiten crear cadenas de varias líneas sin necesidad de usar caracteres de escape como \n. Con comillas simples o dobles, tendrías que concatenar las líneas o usar \n para saltos de línea.
+
+3. Expresiones Complejas:
+Dentro de ${}, no solo puedes insertar variables, sino que también puedes evaluar expresiones complejas.
+
+4. No hay necesidad de concatenación:
+Con comillas simples o dobles, necesitarías concatenar variables y literales utilizando el operador +. Con template strings, esto se hace de manera más fluida y legible.
+
+5. Escapar comillas:
+En las cadenas normales, si quieres usar comillas dentro de una cadena, debes escaparlas (por ejemplo, con \" o \'). En los template strings, esto no es necesario, ya que las comillas simples o dobles se pueden usar directamente sin conflictos.
+
